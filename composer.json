@@ -1,0 +1,20 @@
+{
+    "name": "williamtome/buscador-cursos-alura",
+    "description": "Biblioteca para buscar cursos da Alura.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Williamtome\\BuscadorCursosAlura\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "William T.",
+            "email": "william.tomenh@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "symfony/dom-crawler": "^5.3"
+    }
+}
