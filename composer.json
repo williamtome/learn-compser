@@ -3,9 +3,6 @@
     "description": "Biblioteca para buscar cursos da Alura.",
     "type": "library",
     "autoload": {
-        "classmap": [
-            "./Test.php"
-        ],
         "files": [
             "./helpers.php"
         ],
