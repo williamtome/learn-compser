@@ -10,3 +10,5 @@ Para utilizar essa biblioteca, é necessário ter o PHP e o Composer instalado n
 * Crie um novo projeto em seu editor de texto favorito.
 * No Terminal, vá até a pasta do projeto e digite: <br>
 `composer require willliamtome/buscador-cursos-alura`
+* Para usar a biblioteca, execute este comando:<br>
+`vendor/bin/search-courses.php`
