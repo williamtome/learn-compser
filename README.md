@@ -12,3 +12,5 @@ Para utilizar essa biblioteca, é necessário ter o PHP e o Composer instalado n
 `composer require willliamtome/buscador-cursos-alura`
 * Para usar a biblioteca, execute este comando:<br>
 `vendor/bin/search-courses.php`
+
+Obs.: Se você deseja usar esta biblioteca num projeto que usa Docker, execute este comando: `docker container run --rm -itv $PWD:/${PWD##*/} -w /learn-composer composer <qualquer-um-dos-comandos-acima>`
